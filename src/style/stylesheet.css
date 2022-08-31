@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  margin-top: 8px;
+  max-height: 70px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  border-bottom: solid black 1px;
+  border-top: solid black 1px;
+}
+
+header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+header a:hover {
+  color: #0B2944;
+  font-weight: 600;
+}
+
+header img {
+  width: 7rem;
+}
+
+#container-blue {
+  width:100%;
+  background-color: #0B2944;
+}
+
+#bem-vindo {
+  width: 70%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px auto;
+  border: solid black 1px;
+  border-radius: 0.7rem;
+  padding: 0.6rem;
+  color: #0B2944;
+}
+
+#bem-vindo h2 {
+  text-align: justify;
+  text-indent: 1rem;
+  color: #0B2944;
+  padding: 20px;
+  font-weight: 500;
+}
+#bem-vindo button{
+  border-radius: 25px;
+  width: 245px;
+  height: 45px;
+  font-size: 15px;
+  background-color: #0B2944;
+  color: white;
+}
+
+#bem-vindo img {
+  width: 100%;
+}
+
+#nossa-historia {
+  width: 70%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px auto;
+  border: solid white 1px;
+  border-radius: 0.7rem;
+  padding: 0.6rem;
+  color: white;
+}
+
+#nossa-historia button {
+  border-radius: 25px;
+  width: 245px;
+  height: 45px;
+  font-size: 15px;
+  background-color: white;
+  color: #0B2944;
+}
+
+#nossa-historia h2{
+  text-align: justify;
+  text-indent: 1rem;
+  padding: 20px;
+  font-weight: 500;
+}
+#nossa-historia h1 {
+  color: white;
+}
+
+#nossa-historia img {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+#o-que-fazemos {
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px auto;
+  border: solid black 1px;
+  border-radius: 0.7rem;
+  padding: 0.6rem;
+}
+
+#o-que-fazemos h2 {
+  text-align: justify;
+  text-indent: 1rem;
+  padding: 20px;
+  font-weight: 500;
+}
+#o-que-fazemos  button{
+  border-radius: 25px;
+  width: 245px;
+  height: 45px;
+  font-size: 15px;
+  background-color: #0B2944;
+  color: white;
+}
+
+#o-que-fazemos  img {
+  width: 100%;
+}
+
+
+h1 {
+  text-align: center;
+  color: #0B2944;
+  padding: 15px;
+}
+
+
+#contato {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: top;
+  margin: 10px auto;
+  color: white;
+  border: solid black 1px;
+  border-radius: 0.7rem;
+  padding: 0.6rem;
+}
+#contato h1{
+  color: white;
+  margin-bottom: 60px;
+}
+
+#contato-1 {
+  width: 50%;
+  justify-content: center;
+  text-align: top;
+  align-items: center;
+
+}
+#contato-2-1 {
+  width: 25%;
+  justify-content: center;
+  text-align: center;
+  align-items: top;
+}
+#contato-2-2 {
+  width: 25%;
+  justify-content: center;
+  text-align: center;
+  align-items: top;
+}
+
+#contato input{
+  height: 25px;
+  width: 90%;
+  margin: 0.5rem 0.5rem;
+  background-color: #0B2944;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  resize: vertical;
+  box-sizing: border-box;
+  color: #f1f1f1;
+}
+
+#contato ::placeholder{
+  color: #f1f1f1;
+}
+@media screen and (max-width: 500px) {
+  header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
