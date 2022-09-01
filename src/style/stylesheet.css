@@ -218,3 +218,155 @@ h1 {
   }
 
 }
+
+#sobre {
+  width: 70%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px auto;
+  border: solid black 1px;
+  border-radius: 0.7rem;
+  padding: 0.6rem;
+  color: #0B2944;
+}
+
+#sobre h2 {
+  text-align: justify;
+  text-indent: 1rem;
+  color: #0B2944;
+  padding: 20px;
+  font-weight: 500;
+}
+#sobre button{
+  border-radius: 25px;
+  width: 245px;
+  height: 45px;
+  font-size: 15px;
+  background-color: #0B2944;
+  color: white;
+}
+
+#sobre img {
+  width: 100%;
+}
+
+/* #nossa-equipe {
+  width: 70%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px auto;
+  border: solid black 1px;
+  border-radius: 0.7rem;
+  padding: 0.6rem;
+  color: #0B2944;
+}
+
+#nossa-equipe h2 {
+  text-align: justify;
+  text-indent: 1rem;
+  color: #0B2944;
+  padding: 20px;
+  font-weight: 500;
+}
+#nossa-equipe button{
+  border-radius: 25px;
+  width: 245px;
+  height: 45px;
+  font-size: 15px;
+  background-color: #0B2944;
+  color: white;
+}
+
+#nossa-equipe img {
+  width: 100%;
+} */
+
+#colaboradores {
+  width: 70%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px auto;
+  padding: 0.6rem;
+  color: #0B2944;
+}
+
+#colaboradores h2 {
+  text-align: justify;
+  text-indent: 1rem;
+  color: #0B2944;
+  padding: 20px;
+  font-weight: 500;
+}
+
+#colaboradores img {
+  margin-left: 3rem;
+}
+
+#nossos-servicos {
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px auto;
+  border: solid black 1px;
+  border-radius: 0.7rem;
+  padding: 0.6rem;
+}
+
+#nossos-servicos h2 {
+  text-align: justify;
+  text-indent: 1rem;
+  padding: 20px;
+  font-weight: 500;
+}
+
+#nossos-servicos  button{
+  border-radius: 25px;
+  width: 245px;
+  height: 45px;
+  font-size: 15px;
+  background-color: #0B2944;
+  color: white;
+}
+
+#nossos-servicos  img {
+  width: 100%;
+}
+
+#nossos-servicos h3 {
+  text-align: justify;
+  text-indent: 5rem;
+}
+
+#acompanhe-as-novidades {
+  width: 70%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px auto;
+  border: solid black 1px;
+  border-radius: 0.7rem;
+  padding: 0.6rem;
+  color: #0B2944;
+}
+
+#acompanhe-as-novidades h2 {
+  text-align: center;
+  text-indent: 0rem;
+  color: #0B2944;
+  padding: 20px;
+  font-weight: 500;
+}
+#acompanhe-as-novidades button{
+  border-radius: 25px;
+  width: 245px;
+  height: 45px;
+  font-size: 15px;
+  background-color: #0B2944;
+  color: white;
+}
+
