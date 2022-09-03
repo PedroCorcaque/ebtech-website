@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="../style/stylesheet.css" media="screen"/>
     </head>
     <body>
-        <div class="header">
+        <header>
             <a href="index.html" class="logo">
                 <img src="../imgs/logo-ebtech.png">
             </a>
@@ -19,29 +19,58 @@
                 <a href="news.html">Novidades</a>
                 <a class="active" href="contact_me.html">Entre em contato</a>
             </div>
-        </div> 
-        <div id="contact-me">
-            <div id="contact-me-left">
-                <h1>Entre em contato</h1>
-                <h3>
-                    Av. Itália - Carreiros, Rio Grande, RS, Brasil
-                    <a data-auto-recognition="true" href="mailto:ebtechnologies.ej@gmail.com">ebtechnologies.ej@gmail.com</a>
-                </h3>
+        </header>
+        <!-- <div id="container-blue"> -->
+        <form action="mailto:ebtechnologies.ej@gmail.com" method="get" enctype="text/plain">
+            <div id="contato">
+                <div id="contato-1">
+                    <h1>ENTRE EM CONTATO</h1>
+                    <span>
+                        Avenida Itália, Km 08, Campus carreiros,
+                        Universidade Federal do Rio Grande, Prédio Incubadora INNOVATIO, CEP 96203-900, Rio Grande – RS
+                        <br/><br/>ebtechnologies.ej@gmail.com
+                    </span>
+                </div>
+                <div id="contato-2-1">
+                <input type="text" placeholder="Nome" id="nome"/>
+                <input type="text" placeholder="Telefone" id="telefone"/>
+                <input type="text" placeholder="Assunto" id="assunto" />
+                </div>
+                <div id="contato-2-2">
+                    <input type="email" placeholder="Email" id="email"/>
+                    <input type="Mensagem" placeholder="Mensagem" id="mensagem"/>
+                    <input type="submit" name="submit" value="Enviar" id="button"/>
+                </div>
             </div>
-            <div id="contact-me-right">
-                <form>
-                    <input type="text" placeholder="Nome"/>
-                    <input type="email" placeholder="Email"/>
-                    <input type="tel" placeholder="Telefone"/>
-                    <input type="text" placeholder="Endereço"/>
-                    <input type="text" placeholder="Assunto"/>
-                    <input type="text" placeholder="Digite sua mensagem aqui"/>
-                    <input type="submit" value="Enviar">
-                </form>
-            </div>
-        </div>
+        </form>
+        <!-- </div> -->
         <div id="mapa">
             <!-- Mapa com localização -->
         </div>
+        <footer>
+            <div id="redes-sociais">
+                <a data-auto-recognition="true" href="mailto:ebtechnologies.ej@gmail.com">ebtechnologies.ej@gmail.com</a>
+                <ul id="ig-li">
+                    <li id="instagram">
+                        <a href="https://www.instagram.com/ebtechnologies.ej/">
+                            <picture>
+                                <source srcset="../imgs/instagram.webp" type="image/webp">
+                                <source srcset="img/instagram.jpg" type="image/jpeg">
+                                <img src="../src/img/instagram.jpg">
+                            </picture>
+                        </a>
+                    </li>
+                    <li id="linkedin">
+                        <a href="www.linkedin.com/company/eb-technologies/">
+                            <picture>
+                                <source srcset="../imgs/linkedin.webp" type="image/webp">
+                                <source srcset="img/linkedin.jpg" type="image/jpeg">
+                                <img src="../src/img/linkedin.jpg">
+                            </picture>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
     </body>
 </html>

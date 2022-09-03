@@ -168,10 +168,11 @@ h1 {
   border: solid black 1px;
   border-radius: 0.7rem;
   padding: 0.6rem;
+  background-color: #0B2944;
 }
-#contato h1{
+
+#contato h1 {
   color: white;
-  margin-bottom: 60px;
 }
 
 #contato-1 {
@@ -179,14 +180,15 @@ h1 {
   justify-content: center;
   text-align: top;
   align-items: center;
-
 }
+
 #contato-2-1 {
   width: 25%;
   justify-content: center;
   text-align: center;
   align-items: top;
 }
+
 #contato-2-2 {
   width: 25%;
   justify-content: center;
@@ -205,6 +207,15 @@ h1 {
   resize: vertical;
   box-sizing: border-box;
   color: #f1f1f1;
+}
+
+#button {
+  border-radius: 25px;
+  width: 245px;
+  height: 45px;
+  font-size: 15px;
+  background-color: white;
+  color: #0B2944;
 }
 
 #contato ::placeholder{
@@ -305,62 +316,35 @@ h1 {
   margin-left: 3rem;
 }
 
-#nossos-servicos {
-  width: 70%;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin: 10px auto;
-  border: solid black 1px;
-  border-radius: 0.7rem;
-  padding: 0.6rem;
-}
-
-#nossos-servicos h2 {
-  text-align: justify;
-  text-indent: 1rem;
-  padding: 20px;
-  font-weight: 500;
-}
-
-#nossos-servicos  button{
-  border-radius: 25px;
-  width: 245px;
-  height: 45px;
-  font-size: 15px;
-  background-color: #0B2944;
-  color: white;
-}
-
-#nossos-servicos  img {
-  width: 100%;
-}
-
-#nossos-servicos h3 {
-  text-align: justify;
-  text-indent: 5rem;
-}
-
 #acompanhe-as-novidades {
   width: 70%;
   justify-content: center;
   text-align: center;
   align-items: center;
   margin: 10px auto;
-  border: solid black 1px;
+  border: solid white 1px;
   border-radius: 0.7rem;
   padding: 0.6rem;
-  color: #0B2944;
+  color: white;
+  background-color: #0B2944;
+}
+
+#acompanhe-as-novidades h1 {
+  color: white;
 }
 
 #acompanhe-as-novidades h2 {
   text-align: center;
   text-indent: 0rem;
-  color: #0B2944;
+  color: white;
   padding: 20px;
   font-weight: 500;
 }
+
+#acompanhe-as-novidades h3 {
+  margin-bottom: 2rem;
+}
+
 #acompanhe-as-novidades button{
   border-radius: 25px;
   width: 245px;
@@ -370,3 +354,109 @@ h1 {
   color: white;
 }
 
+#missao-visao-valor {
+  width: 70%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px auto;
+  border: solid white 1px;
+  border-radius: 0.7rem;
+  padding: 0.6rem;
+  color: white;
+}
+
+#missao-visao-valor button {
+  border-radius: 25px;
+  width: 245px;
+  height: 45px;
+  font-size: 15px;
+  background-color: white;
+  color: #0B2944;
+}
+
+#missao-visao-valor h2{
+  text-align: justify;
+  text-indent: 1rem;
+  padding: 20px;
+  font-weight: 500;
+}
+#missao-visao-valor h1 {
+  color: white;
+}
+
+#missao-visao-valor img {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+#nossos-servicos {
+  width: 70%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px auto;
+  border: solid white 1px;
+  border-radius: 0.7rem;
+  padding: 0.6rem;
+  color: white;
+}
+
+#nossos-servicos button {
+  border-radius: 25px;
+  width: 245px;
+  height: 45px;
+  font-size: 15px;
+  background-color: white;
+  color: #0B2944;
+  margin-top: 2rem;
+}
+
+#nossos-servicos h2{
+  text-indent: 1rem;
+  padding: 20px;
+  font-weight: 500; 
+  text-align: center;
+}
+
+#nossos-servicos h3 {
+  text-indent: 1rem;
+  padding: 20px;
+  font-weight: 500; 
+  text-align: justify;
+}
+
+#nossos-servicos h1 {
+  color: white;
+}
+
+#nossos-servicos h4 {
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+#nossos-servicos img {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+#pseudo-header {
+  text-align: center;
+}
+
+#redes-sociais {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#redes-sociais ul {
+  margin-top: 1rem;
+}
+
+#redes-sociais li{
+  display: inline;
+}
